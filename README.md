@@ -1,36 +1,28 @@
-# TypeScript Example
+# Pintu Market Trade
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+Pintu market trade web app project. Check Usage.md for details on this specific repo.
+This project bootstrapped with [`create-react-native-app`](https://reactnative.dev/docs/environment-setup).
 
-```sh
-npx create-react-native-app -t with-typescript
+## Table of Contents
+
+1. [Requirements](#requirements)
+2. [Getting Started](#getting-started)
+
+## Requirements
+
+- node `8.1.0`
+- npm `16.13.0`
+
+We recommend [installing Volta](https://docs.volta.sh/guide/getting-started)
+to auto switch Node.js versions between projects seamlessly.
+Other alternative use can [modify your bash](https://stackoverflow.com/questions/23556330/run-nvm-use-automatically-every-time-theres-a-nvmrc-file-on-the-directory)
+
+## Getting Started
+
+After confirming that your development environment meets the specified [requirements](#requirements),
+you can start the site by running these commands:
+
+```bash
+$ npm install                   # Install project dependencies
+$ npm run start                     # Compile and launch
 ```
-
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
-
-## 🚀 How to use
-
-#### Creating a new project
-
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
-
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
