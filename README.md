@@ -26,3 +26,5 @@ you can start the site by running these commands:
 $ npm install                   # Install project dependencies
 $ npm run start                     # Compile and launch
 ```
+
+Try on your device [open](https://expo.dev/@stefirkp/market-trade?serviceType=classic&distribution=expo-go)
