@@ -1,18 +1,20 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { withExpoSnack } from 'nativewind';
 
-export default function App() {
+import MarketPage from './src/pages/market';
+
+const queryClient = new QueryClient();
+
+const App: React.FC = () => {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <View>
+      <QueryClientProvider client={queryClient}>
+        <MarketPage/>
+      </QueryClientProvider>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default withExpoSnack(App);
