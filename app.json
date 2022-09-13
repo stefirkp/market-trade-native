@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Market Trade",
+    "slug": "market-trade",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
